@@ -1,0 +1,74 @@
+* {
+  /* background-color: #fff; */
+  font-family: "Montserrat";
+}
+
+.first-circle {
+  height: 200px;
+  width: 200px;
+  top: 430px;
+  left: 550px;
+  position: absolute;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background: rgb(161, 158, 205);
+  background: linear-gradient(35deg, rgba(161, 158, 205, 1) 0%, rgba(101, 101, 240, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  box-shadow: -0.5rem 1rem 1rem rgb(194, 190, 190);
+}
+
+.lanjutan {
+  height: 150px;
+  width: 150px;
+  top: 20px;
+  left: 70px;
+  border-radius: 46% 54% 56% 44% / 24% 42% 58% 76%;
+}
+
+img {
+  width: 600px;
+  top: 60px;
+  left: 800px;
+  position: absolute;
+}
+
+.awalan {
+  padding: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 12rem;
+  left: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.awalan .satu .firsttext {
+  font-size: 3rem;
+  margin: auto;
+}
+
+.awalan .satu .secondtext {
+  font-size: 1.5rem;
+}
+
+.button {
+  width: 7rem;
+  background-image: linear-gradient(to right, #56ccf2 0%, #2f80ed 51%, #56ccf2 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+button:focus {
+  outline: 0;
+}
